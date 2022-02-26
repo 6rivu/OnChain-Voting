@@ -45,16 +45,7 @@ export default function Home () {
         }}
       >
         <Grid item align='center' sx={{ pt: 3 }}>
-          {/* If MM is not connected render 'Connect Wallet' btn else 'Connected btn'. */}
-          {
-                    !connected
-                      ? <Button variant='contained' onClick={handleConnectWallet}>Connect Wallet</Button>
-
-                      : <>
-                        <Button variant='outlined'>{account.substring(0, 7)} Connected</Button>
-                        <Connected pExists={profileExist} />        {/* proped component to either link to '/mintprofile' or 'profilehome' */}
-                        </>
-                }
+        
         </Grid>
       </Grid>
     </div>
