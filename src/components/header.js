@@ -15,7 +15,7 @@ export default function Header () {
           <Grid item md={12} textAlign='center'>
             <Link to='/'>
               <Typography variant='h4' color='#1976d2'>
-                Blockchain E-Voting
+                Blockchain E-Voting.
               </Typography>
             </Link>
             <Grid item textAlign='center'>
